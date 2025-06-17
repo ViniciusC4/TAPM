@@ -17,6 +17,9 @@ const NavBar = () => {
             <NavLink to="/register">Cadastrar-se</NavLink>          
           </li>
           <li>
+            <NavLink to="/register-store">Cadastrar Loja</NavLink>          
+          </li>
+          <li>
             <NavLink to="/contact">Contato</NavLink>          
           </li>
           <li>
@@ -27,5 +30,4 @@ const NavBar = () => {
     );
   };
 
-  export default NavBar
-  
+export default NavBar;

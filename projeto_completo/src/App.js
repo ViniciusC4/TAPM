@@ -5,6 +5,7 @@ import Login from './screens/Login';
 import Contact from './screens/Contact';
 import About from './screens/About';
 import Cadastrar from './screens/Register';
+import RegisterStore from './screens/CadastrarLoja';
 
 import PublicLayout from './components/PublicLayout';
 import Painel from './screens/Painel';
@@ -22,6 +23,7 @@ function App() {
           <Route path="/register" element={<Cadastrar />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
+          <Route path="/register-store" element={<RegisterStore />} />
         </Route>
 
         {/* Layout ADMIN (sem navbar, sem logo) */}
